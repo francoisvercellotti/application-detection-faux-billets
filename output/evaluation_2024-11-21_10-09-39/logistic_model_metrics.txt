@@ -1,0 +1,21 @@
+### Métriques d'évaluation ###
+Rapport de classification sur le jeu d'entraînement:
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99       386
+           1       0.99      1.00      0.99       784
+
+    accuracy                           0.99      1170
+   macro avg       0.99      0.99      0.99      1170
+weighted avg       0.99      0.99      0.99      1170
+
+
+Rapport de classification sur le jeu de test:
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99       106
+           1       0.99      0.99      0.99       187
+
+    accuracy                           0.99       293
+   macro avg       0.99      0.99      0.99       293
+weighted avg       0.99      0.99      0.99       293
