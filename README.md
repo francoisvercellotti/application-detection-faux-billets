@@ -32,11 +32,11 @@ Le projet a été développé avec **VSCode** et utilise un environnement virtue
 
 
 
-├── data/                  # Données d'entrée et sorties
-├── model/                 # Modèles entraînés
-├── notebooks/             # Notebooks Jupyter pour l'analyse et la modélisation
-├── output/                # Résultats et figures de l'analyse
-├── scripts/               # Scripts Python pour prétraitement, modélisation, etc.
-├── requirements.txt       # Liste des dépendances
-├── .gitignore             # Fichiers à ignorer dans Git
-└── README.md              # Ce fichier
+data/ # Données d'entrée et sorties
+model/ # Modèles entraînés
+notebooks/ # Notebooks Jupyter pour l'analyse et la modélisation
+output/ # Résultats et figures de l'analyse
+scripts/ # Scripts Python pour prétraitement, modélisation, etc.
+requirements.txt # Liste des dépendances
+.gitignore # Fichiers à ignorer dans Git
+README.md # Ce fichier
