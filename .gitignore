@@ -15,3 +15,6 @@ __pycache__/
 
 # Ignorer les fichiers de dépendances
 .DS_Store
+
+# Ignorer le dossier data contenant les fichiers sensibles
+data/
