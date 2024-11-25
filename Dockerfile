@@ -15,5 +15,8 @@ RUN pip install --upgrade pip && pip install --no-cache-dir -v -r requirements.t
 # Copie le reste de l'application et les modèles
 COPY . /app/
 
-# Définit le point d'entrée pour exécuter l'application
-CMD ["python", "/app/appli.py"]
+# Exposer le port 80 pour accéder à l'application
+EXPOSE 80
+
+# Commande pour démarrer l'application Streamlit
+CMD ["streamlit", "run", "/app/appli.py", "--server.port=80", "--server.address=0.0.0.0"]
