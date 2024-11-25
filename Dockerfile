@@ -1,5 +1,5 @@
 # Utilise une image Python légère
-FROM python:3.9-slim
+FROM python:3.10-slim
 
 # Définit le répertoire de travail à l'intérieur du conteneur
 WORKDIR /app
@@ -8,8 +8,9 @@ WORKDIR /app
 COPY requirements.txt /app/
 
 # Met à jour pip et installe les dépendances
-RUN pip install --upgrade pip && \
-    pip install --no-cache-dir -r requirements.txt
+RUN pip install --upgrade pip && pip install --no-cache-dir -v -r requirements.txt
+
+
 
 # Copie le reste de l'application et les modèles
 COPY . /app/
