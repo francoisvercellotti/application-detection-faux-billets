@@ -1,0 +1,16 @@
+# Ignore les fichiers pycache et les fichiers .pyc
+__pycache__
+*.pyc
+
+# Ignore les répertoires de Git et les fichiers associés
+.git
+
+# Ignore les fichiers de configuration d'environnement locaux
+.env
+
+# Ignore l'environnement virtuel
+venv/
+p12/
+
+# Ignore le fichier de configuration de l'éditeur (si pas nécessaire)
+Projet\ n°\ 12.code_workspace.code-workspace
