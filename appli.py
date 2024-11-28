@@ -11,10 +11,6 @@ import streamlit as st
 # Chemin vers le modèle pré-entraîné
 MODEL_PATH = "./model/best_model.pkl"
 
-"""
-Application de prédiction pour détecter si un billet est authentique ou faux.
-Ce script charge un modèle pré-entraîné et effectue des prédictions sur les données des billets.
-"""
 
 def load_data(file):
     """
@@ -100,7 +96,7 @@ def main():
             predicted_data = predict_data(model, data)
 
             st.write("Prédictions effectuées :")
-            st.write(predicted_data.head())
+            st.write(predicted_data.head(30))
 
             # Bouton pour télécharger le fichier de résultats
             output_file = uploaded_file.name.split('.')[0] + '_predictions.csv'
