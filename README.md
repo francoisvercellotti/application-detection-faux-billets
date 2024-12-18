@@ -159,3 +159,12 @@ Le projet est organisé en plusieurs répertoires et fichiers pour garantir une 
 - **Linter** : pylint.
 - **Conteneurisation** : Docker.
 - **Optimisation de modèles** : GridSearchCV, RandomSearchCV.
+
+## Conclusion
+
+Ce projet représente une étape clé dans ma formation en tant que data analyst. Il m'a permis de mettre en pratique des concepts fondamentaux du machine learning, tels que l'analyse exploratoire, le prétraitement des données, la modélisation et l'évaluation des performances. En travaillant sur une problématique concrète, j'ai également renforcé mes compétences en structuration de projet, gestion de version avec Git, et mise en production grâce à des outils comme Docker.
+
+L'aspect multidisciplinaire du projet, combinant analyse des données, programmation et déploiement d'application, m'a permis d’acquérir une vision globale du cycle de vie d’un projet de data science. Ce type de projet me prépare non seulement à des défis techniques, mais aussi à répondre aux besoins réels des entreprises dans un contexte professionnel.
+
+En résumé, ce projet constitue un excellent tremplin pour développer des compétences pratiques et essentielles, tout en consolidant mes connaissances théoriques dans un cadre appliqué.
+
