@@ -62,29 +62,61 @@ Cette partie a été développé avec **VSCode** et en utilisant wsl2
 - Hébergement du projet sur GitHub pour faciliter la collaboration.
 - Structuration des branches :
 
+ # Structure du projet
+
+Le projet est organisé en plusieurs répertoires et fichiers pour garantir une meilleure structuration et lisibilité du code.
+
+## Répertoires principaux
+
  `data/`  
   Données d'entrée et de sortie.  
+ 
 
  `model/`  
   Modèles entraînés.  
+  
 
- `notebooks/`  
+`notebooks/`  
   Notebooks Jupyter pour l'analyse et la modélisation.  
+  
 
  `output/`  
   Résultats et figures de l'analyse.  
+ 
 
  `scripts/`  
   Scripts Python pour le prétraitement, la modélisation, etc.  
+  
 
- `requirements.txt`  
-  Liste des dépendances nécessaires.  
+## Fichiers principaux
 
- `.gitignore`  
-  Fichiers à ignorer dans Git.  
+`.dockerignore`  
+  Définit les fichiers à exclure lors de la construction du conteneur Docker.  
+  
+`.gitignore`  
+  Spécifie les fichiers à ignorer dans Git.  
+  
+
+ `Dockerfile`  
+  Contient les instructions pour construire l'image Docker de l'application.  
+  
+
+`Projet n°12.code_workspace.code-workspace`  
+  Configuration du workspace pour VSCode.  
+  
 
  `README.md`  
-  Ce fichier décrivant le projet.  
+  Document décrivant le projet et ses étapes.  
+  
+
+ `appli.py`  
+  Script principal de l'application, incluant la fonction de prédiction.  
+ 
+
+ `requirements.txt`  
+  Liste des dépendances nécessaires à l'exécution du projet.  
+  
+
 
 
 ### 2. Structure modulaire et documentation
