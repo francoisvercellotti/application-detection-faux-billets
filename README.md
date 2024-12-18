@@ -62,14 +62,30 @@ Cette partie a été développé avec **VSCode** et en utilisant wsl2
 - Hébergement du projet sur GitHub pour faciliter la collaboration.
 - Structuration des branches :
 
-data/ # Données d'entrée et sorties
-model/ # Modèles entraînés
-notebooks/ # Notebooks Jupyter pour l'analyse et la modélisation
-output/ # Résultats et figures de l'analyse
-scripts/ # Scripts Python pour prétraitement, modélisation, etc.
-requirements.txt # Liste des dépendances
-.gitignore # Fichiers à ignorer dans Git
-README.md # Ce fichier
+- `data/`  
+  Données d'entrée et de sortie.  
+
+- `model/`  
+  Modèles entraînés.  
+
+- `notebooks/`  
+  Notebooks Jupyter pour l'analyse et la modélisation.  
+
+- `output/`  
+  Résultats et figures de l'analyse.  
+
+- `scripts/`  
+  Scripts Python pour le prétraitement, la modélisation, etc.  
+
+- `requirements.txt`  
+  Liste des dépendances nécessaires.  
+
+- `.gitignore`  
+  Fichiers à ignorer dans Git.  
+
+- `README.md`  
+  Ce fichier décrivant le projet.  
+
 
 ### 2. Structure modulaire et documentation
 - Découpage en scripts Python modulaires.
