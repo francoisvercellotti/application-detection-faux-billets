@@ -62,11 +62,11 @@ Cette partie a été développé avec **VSCode** et en utilisant wsl2
 - Hébergement du projet sur GitHub pour faciliter la collaboration.
 - Structuration des branches :
 
- # Structure du projet
+
 
 Le projet est organisé en plusieurs répertoires et fichiers pour garantir une meilleure structuration et lisibilité du code.
 
-## Répertoires principaux
+### Répertoires principaux
 
  `data/`  
   Données d'entrée et de sortie.  
@@ -88,7 +88,7 @@ Le projet est organisé en plusieurs répertoires et fichiers pour garantir une 
   Scripts Python pour le prétraitement, la modélisation, etc.  
   
 
-## Fichiers principaux
+### Fichiers principaux
 
 `.dockerignore`  
   Définit les fichiers à exclure lors de la construction du conteneur Docker.  
