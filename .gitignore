@@ -18,3 +18,6 @@ __pycache__/
 
 # Ignorer le dossier data contenant les fichiers sensibles
 data/
+
+# Ignorer le fichier application notebook
+ notebooks\Application détection faux billets.ipynb
