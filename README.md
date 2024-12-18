@@ -47,7 +47,15 @@ L'ONCFM est chargée de détecter et de prévenir la circulation de billets cont
   - Les modèles évalués.
   - Le choix du modèle final.
 
-# Pour aller plus loin : Mise en production et bonnes pratiques de développement
+<img src="https://github.com/user-attachments/assets/79760fe8-e125-499b-8c08-c6102a7d8988" alt="image" width="600">
+
+<img src="https://github.com/user-attachments/assets/ee8bbe98-2b36-42c3-a8f9-ba39a66ed0cd" alt="image" width="600">
+
+<img src="https://github.com/user-attachments/assets/69e7ec7b-c6d9-4f2b-ba17-ae4402843092" alt="image" width="600">
+
+
+
+## Pour aller plus loin : Mise en production et bonnes pratiques de développement
 
 Les étapes 1 à 4 ont été réalisé sur un notebook, pour aller plus loin et afin de garantir la robustesse, la qualité et la portabilité de l'application, des outils et méthodes avancés ont été utilisés dans une optique de mise en production.
 
@@ -55,7 +63,7 @@ Cette partie a été développé avec **VSCode** et en utilisant wsl2
 
 
 
-## Outils et étapes additionnelles
+## Etapes additionnelles
 
 ### 1. Contrôle de version avec Git et GitHub
 - Suivi des versions avec Git pour gérer efficacement les modifications.
